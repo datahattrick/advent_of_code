@@ -63,6 +63,7 @@ fn get_u32_from_string(lines: Lines<BufReader<File>>) -> Vec<Vec<u32>> {
     return digit_lines;
 }
 
+#[derive(Debug)]
 struct CombineError;
 
 impl fmt::Display for CombineError {
